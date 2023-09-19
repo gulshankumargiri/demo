@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>colgroup</title>
+    <style>
+        table,td,th{
+            border: 1px solid red;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup>
+        <col span="1">
+        <col span="2" style="background-color: aqua;">
+        <col style=" visibility: collapse;">  <!-- to hide any column we write visiblity :collapse -->
+        <col span="1" style="background-color: brown;">
+        
+        </colgroup>
+        <tr>
+            <td>col 1</td>
+            <td>col 2</td>
+            <td>col 3</td>
+            <td>col 4</td>
+            <td>col 5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+        </tr>
+    </table>
+</body>
+</html>

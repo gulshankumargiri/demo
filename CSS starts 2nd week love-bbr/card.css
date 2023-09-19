@@ -1,0 +1,29 @@
+.card{
+    background-color: aliceblue;
+    
+    /* padding: 0.6em; */
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+
+.container{
+    
+    background-color: #f1f1f1;
+}
+
+.orgprice{
+    background: #ccc;
+    padding: 4px;
+}
+.discount{
+    color: white;
+background-color: greenyellow;
+
+
+
+}
